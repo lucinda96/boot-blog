@@ -1,0 +1,7 @@
+PUT http://localhost:8080/api/articles/56
+Content-Type: application/json
+
+{
+  "title" : "새 블로그",
+  "content": "새로운 글을 서볼까?"
+}

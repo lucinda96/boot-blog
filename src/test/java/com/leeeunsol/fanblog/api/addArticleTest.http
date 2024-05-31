@@ -1,0 +1,7 @@
+POST http://localhost:8080/api/articles
+Content-Type: application/json
+
+{
+    "title" : "api테스트",
+    "content" : "api테스트 합니다"
+}

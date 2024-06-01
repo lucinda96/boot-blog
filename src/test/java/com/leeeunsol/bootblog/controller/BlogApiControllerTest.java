@@ -1,4 +1,4 @@
-package com.leeeunsol.fanblog.controller;
+package com.leeeunsol.bootblog.controller;
 
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.*;
@@ -7,7 +7,7 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
 
 import java.util.List;
 
-import com.leeeunsol.fanblog.dto.UpdateArticleRequest;
+import com.leeeunsol.bootblog.dto.UpdateArticleRequest;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
@@ -21,9 +21,9 @@ import org.springframework.test.web.servlet.setup.MockMvcBuilders;
 import org.springframework.web.context.WebApplicationContext;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.leeeunsol.fanblog.domain.Article;
-import com.leeeunsol.fanblog.dto.AddArticleRequest;
-import com.leeeunsol.fanblog.repository.BlogRepository;
+import com.leeeunsol.bootblog.domain.Article;
+import com.leeeunsol.bootblog.dto.AddArticleRequest;
+import com.leeeunsol.bootblog.repository.BlogRepository;
 
 @SpringBootTest 
 @AutoConfigureMockMvc

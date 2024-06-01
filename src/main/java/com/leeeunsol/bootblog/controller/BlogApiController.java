@@ -1,16 +1,16 @@
-package com.leeeunsol.fanblog.controller;
+package com.leeeunsol.bootblog.controller;
 
 import java.util.List;
 
-import com.leeeunsol.fanblog.dto.UpdateArticleRequest;
+import com.leeeunsol.bootblog.dto.UpdateArticleRequest;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
-import com.leeeunsol.fanblog.domain.Article;
-import com.leeeunsol.fanblog.dto.AddArticleRequest;
-import com.leeeunsol.fanblog.dto.ArticleResponse;
-import com.leeeunsol.fanblog.service.BlogService;
+import com.leeeunsol.bootblog.domain.Article;
+import com.leeeunsol.bootblog.dto.AddArticleRequest;
+import com.leeeunsol.bootblog.dto.ArticleResponse;
+import com.leeeunsol.bootblog.service.BlogService;
 
 import lombok.RequiredArgsConstructor;
 

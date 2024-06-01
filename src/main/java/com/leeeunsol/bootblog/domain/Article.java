@@ -1,4 +1,4 @@
-package com.leeeunsol.fanblog.domain;
+package com.leeeunsol.bootblog.domain;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;

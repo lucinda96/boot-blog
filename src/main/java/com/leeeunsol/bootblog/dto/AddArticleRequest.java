@@ -1,6 +1,6 @@
-package com.leeeunsol.fanblog.dto;
+package com.leeeunsol.bootblog.dto;
 
-import com.leeeunsol.fanblog.domain.Article;
+import com.leeeunsol.bootblog.domain.Article;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;

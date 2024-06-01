@@ -1,13 +1,13 @@
-package com.leeeunsol.fanblog.service;
+package com.leeeunsol.bootblog.service;
 
 import java.util.List;
 
-import com.leeeunsol.fanblog.dto.UpdateArticleRequest;
+import com.leeeunsol.bootblog.dto.UpdateArticleRequest;
 import org.springframework.stereotype.Service;
 
-import com.leeeunsol.fanblog.domain.Article;
-import com.leeeunsol.fanblog.dto.AddArticleRequest;
-import com.leeeunsol.fanblog.repository.BlogRepository;
+import com.leeeunsol.bootblog.domain.Article;
+import com.leeeunsol.bootblog.dto.AddArticleRequest;
+import com.leeeunsol.bootblog.repository.BlogRepository;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.transaction.annotation.Transactional;

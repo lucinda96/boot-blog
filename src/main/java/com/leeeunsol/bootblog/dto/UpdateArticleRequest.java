@@ -1,4 +1,4 @@
-package com.leeeunsol.fanblog.dto;
+package com.leeeunsol.bootblog.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
